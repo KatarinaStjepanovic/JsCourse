@@ -3,6 +3,8 @@ const addBtn = document.getElementById('btn-add');
 const subtractBtn = document.getElementById('btn-subtract');
 const multiplyBtn = document.getElementById('btn-multiply');
 const divideBtn = document.getElementById('btn-divide');
+const doubleBtn =document.getElementById("button-double");
+const stepenBtn= document.getElementById('button-stepen');
 
 const currentResultOutput = document.getElementById('current-result');
 const currentCalculationOutput = document.getElementById('current-calculation');

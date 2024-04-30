@@ -1,41 +1,3 @@
-/*function zbir(num1,num2){
-  return num1+num2;
-}
-
-let zbir=zbir(1,2);
-console.log(zbir);
-
-function razlika(num1,num2){
-    return num1-num2;
-  }
-  
-  let razlika=razlika(1,2);
-  console.log(razlika);
-
-  function proizvod(num1,num2){
-    return num1*num2;
-  }
-  
-  let proizvod=proizvod(1,2);
-  console.log(proizvod);
-
-  function količnik(num1,num2){
-    return num1/num2;
-  }
-  
-  let količnik=količnik(1,2);
-  console.log(količnik);
-
-  function zbir(num1,num2){
-    return num1+num2;
-  }
-  
-  let zbir=zbir(1,2);
-  console.log(zbir);*/
-
-
-
-
 
   let CurrentResult=0;
 
@@ -82,6 +44,25 @@ function razlika(num1,num2){
 
   }
 
+  doubleBtn.addEventListener("click",double);
+
+  function double(){
+    let CalculationDescript= CurrentResult + " ˇ2";
+   CurrentResult= CurrentResult * CurrentResult;
+   outputResult(CurrentResult,CalculationDescript);
+
+  }
+
+
+  stepenBtn.addEventListener("click",stepen);
+   
+  function stepen(){
+    let CalculationDescript= CurrentResult + "^" + userInput.value;
+    CurrentResult= Math.pow(CurrentResult,parseInt(userInput.value));
+    outputResult(CurrentResult,CalculationDescript);
+ 
+
+  }
 
 
 
