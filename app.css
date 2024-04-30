@@ -66,31 +66,28 @@ header {
 #calculator button:hover,
 #calculator button:active {
   background: #084f88;
-  border-color: #084f88;
+  border-color:white;
 }
 
 #calculator button#btn-add {
-  background: red;
-  border-color: white;
-
+  background: #084f88;
+  border-color:white;
 }
 
 #calculator button#btn-subtract {
-  background: violet;
-  border-color: black;
-
+  background: #084f88;
+  border-color:white;
 }
 
 #calculator button#btn-multiply {
-  background: blue;
+  background: #084f88;
   border-color:white;
-
+ 
 }
 
 #calculator button#btn-divide {
-  background: yellow;
-  border-color:black;
-
+  background: #084f88;
+  border-color:white;
 }
 
 

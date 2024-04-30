@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Basics</title>
     <link rel="stylesheet" href="assets/styles/app.css" />
-    <script src="/assets/scripts/vendor.js" defer></script>
+    
    
   </head>
   <body>
     <header>
-      <h1><a href="https://www.encode.ba">The Encode calculator</a></h1>
+      <h1><a href="https://www.encode.ba" target="_blank" style="text-decoration: none; color:aqua">The Encode calculator</a></h1>
     </header>
 
     <section id="calculator">
       <input type="number" id="input-number" />
       <div id="calc-actions">
-        <button type="button" id="btn-add">+</button>
-        <button type="button" id="btn-subtract">-</button>
-        <button type="button" id="btn-multiply">*</button>
-        <button type="button" id="btn-divide">/</button>
+        <button type="button" id="btn-add" style="color:aqua">+</button>
+        <button type="button" id="btn-subtract" style="color:aqua">-</button>
+        <button type="button" id="btn-multiply" style="color:aqua">*</button>
+        <button type="button" id="btn-divide" style="color:aqua">/</button>
+        <button type="button" id="button-double" style="color:aqua">ˇ2</button>
+        <button type="button" id="button-stepen" style="color:aqua">^</button>
+
       </div>
     </section>
     <section id="results">
@@ -28,8 +31,9 @@
       <h2>Result: <span id="current-result">0</span></h2>
     </section>
     
-    <script src="/assets/scripts/app.js" ></script>
+    
     <script src="/assets/scripts/vendor.js" ></script>
+    <script src="/assets/scripts/app.js" ></script>
   </body>
   </html>
   
